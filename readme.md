@@ -6,7 +6,7 @@ RFantibody: https://github.com/RosettaCommons/RFantibody/tree/main
 Build & compose up
 ```
 docker compose build
-docker compose down
+docker compose up
 ```
 Run
 ```
