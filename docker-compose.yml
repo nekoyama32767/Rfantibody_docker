@@ -1,0 +1,12 @@
+#version: "3"
+services:
+  rbody:
+   build: .
+   container_name:
+    rfantibody
+   runtime: nvidia
+   environment: # 追加
+            NVIDIA_VISIBLE_DEVICES: all # 追加
+            NVIDIA_DRIVER_CAPABILITIES: all # 追加
+   volumes:
+      - "./work_dir:/home/work_dir"
