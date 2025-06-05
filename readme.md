@@ -1,7 +1,7 @@
 # A Docker compose Sample of
 RFantibody: https://github.com/RosettaCommons/RFantibody/tree/main
 
-# Useage
+# Usage
 ## Docker compose
 Build & compose up
 ```
@@ -12,7 +12,7 @@ Run
 ```
 docker compose run rbody
 ```
-# Run sample
+## Run sample
 After `docker compose run rbody`
 ```
 chmod 655 sample.sh
